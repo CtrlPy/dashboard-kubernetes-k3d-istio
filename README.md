@@ -46,7 +46,9 @@ st5. **To log in to your Dashboard, you need a Bearer Token. Use the following c
 token=$(kubectl -n kubernetes-dashboard create token admin-user)
 ```
 note: echo command and copy it to use for logging in to your Dashboard
-`echo $token`
+```zsh
+echo $token
+```
 
 st6. **You can access your Dashboard using the kubectl command-line tool by running the following command:**
 
