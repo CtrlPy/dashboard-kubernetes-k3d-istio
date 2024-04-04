@@ -31,7 +31,8 @@ curl -LO https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deplo
 ```zsh
 kubectl apply -f recommended.yaml
 ```
-   note: Verify that Dashboard is deployed and running.
+   
+  note: Verify that Dashboard is deployed and running.
 `kubectl get pod -n kubernetes-dashboard`
 
 st4. **Create a ServiceAccount and ClusterRoleBinding to provide admin access to the newly created cluster.**
