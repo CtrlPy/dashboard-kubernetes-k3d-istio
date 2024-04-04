@@ -27,6 +27,10 @@ st3. **To deploy Dashboard, run the following command:**
 ```zsh
  curl -LO https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/dashboard.yaml
 ```
+
+```zsh
+kubectl apply -f dashboard.yaml
+```
    note: Verify that Dashboard is deployed and running.
 `kubectl get pod -n kubernetes-dashboard`
 
