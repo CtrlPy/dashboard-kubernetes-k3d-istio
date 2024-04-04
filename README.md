@@ -1,5 +1,8 @@
 # dashboard-kubernetes-k3d-istio
 
+* install all necessary versions of tools to work through asdf and the file .tool-ver...
+`asdf install`
+
 st1. **Create a cluster and disable Traefik with the following command:**
 
 ```zsh 
